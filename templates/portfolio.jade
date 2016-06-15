@@ -8,11 +8,8 @@ block prepend title
   | #{ page.title + ' - '}
 
 block header
-  include author
-  h1= page.title
-  p.author
-    | #{ 'Written by ' }
-    mixin author(page.metadata.author)
+  h1
+    a(href=page.metadata.address)= page.title
 
 block content
   article.article
