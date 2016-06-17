@@ -6,7 +6,7 @@ address: https://calm-taiga-59860.herokuapp.com/
 github: https://github.com/CJAllen056/wdi-project-2
 tech: ["Ruby on Rails", " SQL", " HTML5", " CSS3", " Foundation", " JavaScript"]
 image: Book-Club.png
-indexImage: Book-Club.png
+indexImage: Book-Club-index.png
 ---
 
 For the second project at General Assembly, we were to make a rails app with at least three linked models in an SQL database. I chose to make a book club app, whereby uses could seek out groups, filtered on a number of categories (e.g. book genre, location).
