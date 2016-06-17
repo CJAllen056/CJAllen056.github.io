@@ -1,7 +1,5 @@
 ---
 title: Sketch-off
-author: chris
-date: 2016-06-15
 template: portfolio.jade
 address: http://nameless-lake-45770.herokuapp.com/
 github: https://github.com/CJAllen056/wdi-project-4

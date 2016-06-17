@@ -1,7 +1,5 @@
 ---
 title: Split
-author: chris
-date: 2016-06-15
 template: portfolio.jade
 address: https://fathomless-lowlands-96200.herokuapp.com/
 github: https://github.com/CJAllen056/wdi-project-1

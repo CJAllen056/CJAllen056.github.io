@@ -1,7 +1,5 @@
 ---
 title: Pear
-author: chris
-date: 2016-06-15
 template: portfolio.jade
 address: http://pearapp.herokuapp.com/
 github: https://github.com/trcywu/pear
