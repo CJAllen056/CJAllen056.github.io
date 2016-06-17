@@ -6,7 +6,7 @@ address: http://nameless-lake-45770.herokuapp.com/
 github: https://github.com/CJAllen056/wdi-project-4
 tech: ["JavaScript", " AngularJS", " Node.js", " HTML5", " CSS3", " MongoDB"]
 image: Sketch-off.png
-indexImage: Sketch-off.png
+indexImage: Sketch-off-index.png
 ---
 
 For the final project on the General Assembly WDI, we pretty much had free reign to do what we wanted. As I had really enjoyed the [first project](../split/index.md) I wanted to make another game, this time with a back-end to enable separate game rooms and socketing.
