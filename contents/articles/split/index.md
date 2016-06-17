@@ -1,10 +1,12 @@
 ---
 title: Split
+file: split
 template: portfolio.jade
 address: https://fathomless-lowlands-96200.herokuapp.com/
 github: https://github.com/CJAllen056/wdi-project-1
 tech: ["Javascript", " HTML5", " CSS3"]
 image: Split.png
+indexImage: Split-index.png
 ---
 
 Split was my first project on the WDI course at General Assembly. We had 4 days to make a 1 page front-end JavaScript game.
