@@ -1,5 +1,6 @@
 ---
 title: Pear
+description: A dating app for a range of tastes
 file: pear
 template: portfolio.jade
 address: http://pearapp.herokuapp.com/

@@ -1,5 +1,6 @@
 ---
 title: Sketch-off
+description: A socketed, high-scoring drawing game
 file: sketch-off
 template: portfolio.jade
 address: http://nameless-lake-45770.herokuapp.com/

@@ -7,7 +7,9 @@ block content
     a(class="listing-link listing-link-" + article.metadata.file href=article.url)
       div(class="listing-image listing-image-" + article.metadata.file style="background-image: url('articles/" + article.metadata.file + "/" + article.metadata.indexImage + "');")
       div(class="listing-details listing-details-" + article.metadata.file)
-        p #{ article.title }
+        div.listing-details-text
+          h3 #{ article.title }
+          p #{ article.metadata.description }
 
 block prepend footer
   div.nav

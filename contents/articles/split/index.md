@@ -1,5 +1,6 @@
 ---
 title: Split
+description: A front-end JS puzzle game
 file: split
 template: portfolio.jade
 address: https://fathomless-lowlands-96200.herokuapp.com/

@@ -26,10 +26,12 @@
   left: 0;
 }
 
-.listing-details p {
+.listing-details-text {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+  text-align: center;
+  height: 10em;
 }
 
 h1, h2, h3, h4, h5, h6, p, body, a, img, ul, ol, blockquote, pre {

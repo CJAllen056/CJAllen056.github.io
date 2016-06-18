@@ -1,5 +1,6 @@
 ---
 title: Book Club
+description: "An app to connect readers"
 file: book-club
 template: portfolio.jade
 address: https://calm-taiga-59860.herokuapp.com/
