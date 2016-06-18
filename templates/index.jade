@@ -8,15 +8,6 @@ block content
       div(class="listing-image listing-image-" + article.metadata.file style="background-image: url('articles/" + article.metadata.file + "/" + article.metadata.indexImage + "');")
       div(class="listing-details listing-details-" + article.metadata.file)
         p #{ article.title }
-      //- header
-      //-   h2
-      //-     a(href=article.url)= article.title
-      //- section.content
-      //-   if article.intro.length > 0
-      //-     != typogr(article.intro).typogrify()
-      //-   if article.hasMore
-      //-     p.more
-      //-       a(href=article.url) more
 
 block prepend footer
   div.nav

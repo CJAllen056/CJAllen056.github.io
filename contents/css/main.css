@@ -4,6 +4,7 @@
   width: 15em;
   margin: 1em;
   border-radius: 15em;
+  position: relative;
 }
 
 .listing-image {
@@ -19,6 +20,16 @@
   height: 15em;
   width: 15em;
   border-radius: 15em;
+  background-color: grey;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.listing-details p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 h1, h2, h3, h4, h5, h6, p, body, a, img, ul, ol, blockquote, pre {

@@ -2,11 +2,14 @@ $(start);
 
 function start() {
   $(".listing-link").mouseenter(function() {
-    console.log($(this).attr("class"));
-    $(".listing-image").css("display", "none");
-    $(".listing-details").css("display", "inline-block");
+    var linkClass = $(this).attr("class").substring(26);
+
+    $(".listing-image-" + linkClass).css("display", "none");
+    $(".listing-details-" + linkClass).css("display", "inline-block");
   }).mouseleave(function() {
-    $(".listing-details").css("display", "none");
-    $(".listing-image").css("display", "inline-block");
+    var linkClass = $(this).attr("class").substring(26);
+
+    $(".listing-details-" + linkClass).css("display", "none");
+    $(".listing-image-" + linkClass).css("display", "inline-block");
   });
 }
