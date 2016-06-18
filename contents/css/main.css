@@ -1,12 +1,24 @@
-.listing-image {
+.listing-link {
   display: inline-block;
   height: 15em;
   width: 15em;
   margin: 1em;
   border-radius: 15em;
+}
+
+.listing-image {
+  height: 15em;
+  width: 15em;
+  border-radius: 15em;
   background-size: cover;
   background-position: center;
-  float: left;
+}
+
+.listing-details {
+  display: none;
+  height: 15em;
+  width: 15em;
+  border-radius: 15em;
 }
 
 h1, h2, h3, h4, h5, h6, p, body, a, img, ul, ol, blockquote, pre {

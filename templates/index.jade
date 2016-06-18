@@ -4,9 +4,10 @@ extends layout
 block content
   include author
   each article in articles
-    //- article.article.intro
-    a(href=article.url)
-      div.listing-image(style="background-image: url('articles/" + article.metadata.file + "/" + article.metadata.indexImage + "');")
+    a(class="listing-link listing-link-" + article.metadata.file href=article.url)
+      div(class="listing-image listing-image-" + article.metadata.file style="background-image: url('articles/" + article.metadata.file + "/" + article.metadata.indexImage + "');")
+      div(class="listing-details listing-details-" + article.metadata.file)
+        p #{ article.title }
       //- header
       //-   h2
       //-     a(href=article.url)= article.title
