@@ -22,6 +22,11 @@ html(lang='en')
           div.logo
             h1
               a(href=locals.url)= locals.name
+            ul
+              li
+                a(target="_blank" href="https://github.com/CJAllen056")= "github"
+              li
+                a(href="mailto:christopherjallen056@gmail.com")= "contact"
     div#content
       div.content-wrap
         block content

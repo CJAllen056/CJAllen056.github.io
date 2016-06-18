@@ -1,7 +1,7 @@
 {
   "locals": {
     "url": "http://localhost:8080",
-    "name": "Christopher J. Allen's Portfolio",
+    "name": "Christopher J. Allen",
     "owner": "Christopher J. Allen"
   },
   "plugins": [
