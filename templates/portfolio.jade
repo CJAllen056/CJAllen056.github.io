@@ -9,14 +9,17 @@ block prepend title
 
 block header
   h1= page.title
-  a(target="_blank" href=page.metadata.address) site
-  a(target="_blank" href=page.metadata.github) github
-  p tech: #{ page.metadata.tech }
+  ul
+    li
+      a(target="_blank" href=page.metadata.address) site
+    li
+      a(target="_blank" href=page.metadata.github) github
+  p <strong>Tech:</strong> #{ page.metadata.tech }
 
 block content
+  img.portfolio-image(src=page.metadata.image alt=page.title+" image")
   article.article
     section.content!= typogr(page.html).typogrify()
-  img.portfolio-image(src=page.metadata.image alt=page.title+" image")
 
 block prepend footer
   div.nav
