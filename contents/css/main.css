@@ -144,8 +144,9 @@ hr {
 
 .header ul li {
   display: inline-block;
-  margin: 0 5px;
-  line-height: 54px;
+  margin: 0 2px;
+  font-size: 18px;
+  padding-top: 22px;
 }
 
 .header .author {
