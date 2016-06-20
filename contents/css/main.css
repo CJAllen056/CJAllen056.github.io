@@ -215,10 +215,6 @@ footer .copy, footer .copy a {
 
 /* article */
 
-.article {
-  margin: 3em 0 4em;
-}
-
 .article header {
   border-top: 1px dashed #d2d2d2;
 }
@@ -272,6 +268,7 @@ footer .copy, footer .copy a {
 
 .portfolio-image {
   width: 100%;
+  margin: 10px 0;
 }
 
 /* code styling */
