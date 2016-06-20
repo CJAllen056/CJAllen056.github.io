@@ -130,6 +130,10 @@ hr {
   margin: 0;
 }
 
+.header p {
+  margin: 0 0 0 10px;
+}
+
 .header a, .header a:hover {
   text-decoration: none;
   color: #171717;
