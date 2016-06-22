@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Christopher J. Allen</title>
+    <atom:link href="http://localhost:8080/feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <link>http://localhost:8080</link>
+    <description></description>
+    <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+    <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
+    <language>en</language>
+    <item>
+      <title>Pear</title>
+      <link>http://localhost:8080/articles/pear/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/pear/</guid>
+      <author></author>
+      <description>&lt;p&gt;The third project on the General Assembly WDI involved working in a group, and we were asked to integrate an API into the app. We decided to make a map app to be used for dating, where we would apply our own algorithm to dating venues to determine whether they were “flashy” or not. Users could filter the map to find dating locations to suit their preferences.&lt;/p&gt;
+&lt;p&gt;Whilst we had been exposed to some elements of working as a team of programmers on the course, such as daily stand-ups and pair-programming, the group project gave us more of an insight into what a professional programming environment might be like. For example, we used a shared Git repository for the project which gave us a greater understanding of using Git (even if it did cause a few issues at points). Working directly as a team also helped me to fully appreciate some of the benefits of using the techniques we had already been familiarized with (i.e. pair-programming and stand-ups).&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Book Club</title>
+      <link>http://localhost:8080/articles/book-club/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/book-club/</guid>
+      <author></author>
+      <description>&lt;p&gt;For the second project at General Assembly, we were to make a rails app with at least three linked models in an SQL database. I chose to make a book club app, whereby uses could seek out groups, filtered on a number of categories (e.g. book genre, location).&lt;/p&gt;
+&lt;p&gt;Whereas I had a little knowledge of JavaScript before beginning the WDI at General Assembly, I had never used Ruby before the course. It was interesting to see the both similarities and differences between the two languages as I learnt to work with Ruby, and it was cool to see how you could apply existing knowledge of coding when learning to pick up a new language.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Sketch-off</title>
+      <link>http://localhost:8080/articles/sketch-off/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/sketch-off/</guid>
+      <author></author>
+      <description>&lt;p&gt;For the final project on the General Assembly WDI, we pretty much had free reign to do what we wanted. As I had really enjoyed the &lt;a href=&quot;/articles/split/&quot;&gt;first project&lt;/a&gt; I wanted to make another game, this time with a back-end to enable separate game rooms and socketing.&lt;/p&gt;
+&lt;p&gt;I decided to make a drawing guessing game, akin to Pictionary or Draw Something. One player is chosen as the drawer, and is given a prompt which they must attempt to convey through drawing on the canvas. The other players then have to guess the prompt in order to win points. The main challenge on the project was in setting up the socketing on the canvas and chat, so that all players in a room could see the game elements.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Split</title>
+      <link>http://localhost:8080/articles/split/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/split/</guid>
+      <author></author>
+      <description>&lt;p&gt;Split was my first project on the WDI course at General Assembly. We had 4 days to make a 1 page front-end JavaScript game.&lt;/p&gt;
+&lt;p&gt;I chose to make a clone of the game &lt;a href=&quot;http://simogo.com/work/spl-t/&quot;&gt;SPL-T&lt;/a&gt;, a high-score puzzle game by Simogo. The game involves splitting rectangles in half in order to match 4 or more similar shapes. As you make matches your score increases, and the game ends when there are no more splits available.&lt;/p&gt;
+&lt;p&gt;Although we only began this project two weeks into the course, I had had a little JavaScript experience prior to starting the WDI, so I felt somewhat in my comfort zone. I love working with complex functions, and creating the game logic for this was great fun.&lt;/p&gt;
+</description>
+    </item>
+  </channel>
+</rss>
