@@ -1,7 +1,7 @@
 {
   "output": "../",
   "locals": {
-    "url": "http://localhost:8080",
+    "url": "http://cjallen.io",
     "name": "Christopher J. Allen",
     "owner": "Christopher J. Allen"
   },
